@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador - Password</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <canvas>
+        </canvas>
+        <div class="generador">
+            <div class="row">
+                <input type="text" id="site" placeholder="Site">
+            </div>
+            <div class="row">
+                <input type="text" id="user" placeholder="Username">
+            </div>
+            <div class="row">
+                <input type="text" id="lenght" class="col-3" placeholder="Lenght">
+                <input type="text" id="password" readonly class="col-9">
+            </div>
+            <div class="row">
+                <button id="generate">Generar</button>
+            </div>
+            <div class="row">
+                <button id="save">Guardar</button>
+            </div>
+        </div>
+        <div class="passwords" id="passwords">
+            
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
